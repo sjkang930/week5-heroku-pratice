@@ -3,17 +3,17 @@ const mysql = require('mysql2');
 const is_heroku = process.env.IS_HEROKU || false;
 
 const dbConfigHeroku = {
-	host: "us-cdbr-east-03.cleardb.com",
-	user: "b1ab7fb2ee03bc",
-	password: "2a484a2d",
-	database: "heroku_3d208ad4bd6f421",
+	host: "y5svr1t2r5xudqeq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "hegbgswxf7yb0bvd",
+	password: "ix23blpdpk9fno1n",
+	database: "d1k1dbb8ye12so6c",
 	multipleStatements: false
 };
 
 const dbConfigLocal = {
 	host: "localhost",
 	user: "root",
-	password: "Password",
+	password: "R751956r",
 	database: "lab_example",
 	multipleStatements: false
 };
